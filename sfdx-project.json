@@ -2,11 +2,19 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "MyManagePackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
     }
   ],
   "name": "ManageProjectPOC",
-  "namespace": "",
+  "namespace": "manpkg",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "58.0"
+  "sourceApiVersion": "58.0",
+  "packageAliases": {
+    "MyManagePackage": "0HodL00000005xNSAQ",
+    "MyManagePackage@0.1.0-1": "04tdL0000000uv3QAA"
+  }
 }
